@@ -1,0 +1,24 @@
+1.horizontally center a div: using margin ;
+.div {
+  width: 50%;
+  margin: auto;
+}
+
+2.horizontally and vertically center a div:
+ .Parent {
+  position: relative;
+}
+.children{
+  position:absolute;
+  left:50%;
+ top:50%;
+ transform: translateX(-50%) translateY(-50%);
+
+}
+
+3. use felxbox in parent element and make the children element in the center
+.parent{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
