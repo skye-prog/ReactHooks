@@ -61,4 +61,22 @@ localStorage.clear();
 Know About List/Object
 I have a list which is given below:
 
+6. <a href ></a> this will send a request and reload the page, we want to stay in the single page
+and let react router dom change the url and the page, instead we use Link
+
+7. programmtically redirct instead of link (eg: submit a form) : 
+{useHistory}  history.push(we can go back to the previous page) 
+history.replace ( users are not allowed to go back) 
+
+8. onFocus/ onBlur  location, useRouteMatch( ) 
+react-router  prompt : provent you from leaving the page accidently
+
+9. regular parameter, query parameter like the question mark
+10 authentication: add authentication to your react app
+authentication persistence: users still stay in logged in after they leave the page
+authenticaiton is needed is the content should be protected, not accessible by everyone 
+authentication: two step process: get permission, and then send request using permission
+
+
+
 
