@@ -1,0 +1,17 @@
+1. TypeScript adds static typing to javascript
+1. premitive values: number string boolean
+let username: string;
+let Islog: boolean
+let hobbies: string[]
+hobbies=['sprots','cooking']
+let person :{name:string, age: number};
+person={age:12, nanme:'jack'}
+let course: string|number (can be either string or number) 
+type alias (to make your code maintainable) 
+//generics : 
+
+9. create react typescript
+10 if you work on typescript, instead of .js file , you will create components todo.tsx
+11. const Todos: React.FC=(props)=>{return ;} FC: functional component
+
+
