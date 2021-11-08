@@ -1,1 +1,25 @@
 
+px do not scale but em and rem scales.it is an absolute unit.Element (em) and Root element (rem) are responsive units interpreted into equivalent
+px unit by the browser. They are relative units. Change in the value of the parent or root element affects the value of relative units. They scale with the device. 
+Relative Length Unit:
+em - Relative to the font-size of the element
+% - Relative to the parent element
+rem - Relative to the root element
+vw - The viewport width is relative to 1% of the width viewport (browser window)
+vh - The viewport height is relative to 1% of the height viewport (browser window)
+vmin - The viewport minimum is relative to 1% of the viewport (browser window) for smaller dimension
+vmax - The viewport maximum is relative to 1% of the viewport (browser window) for larger dimension
+
+Rem is an absolute unit relative to the root element of the HTML document and is commonly used for font sizes. It is a scalable unit in which the browser renders into pixel values. 
+I recommend it for responsiveness. The default root element font size is 16px.
+
+Percentage(%)
+The percentage unit is also relative to the parent element and is commonly used as the width and height of an element. 
+Although there is no fixed rule on where to use this unit,it is rarely used for font sizes.
+The percentage unit is also useful when creating a responsive layout.
+
+The difference between percentage (%) and vw is just like the difference we encounter between rem and em. The Percentage unit is relative to the containing element 
+while vw is relative to the viewport which is the browser window.
+Here is an example of vw unit.A 5vh will lead to 5% of the current viewport height. 
+This unit works just like the vw but with the height of a viewport, it is helpful when building a responsive website. 
+
